@@ -15,7 +15,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>pcsx2</ProjectName>
+    <ProjectName>pcsx2cs</ProjectName>
     <ProjectGuid>{1CEFD830-2B76-4596-A4EE-BCD7280A60BD}</ProjectGuid>
     <RootNamespace>pcsx2</RootNamespace>
   </PropertyGroup>
