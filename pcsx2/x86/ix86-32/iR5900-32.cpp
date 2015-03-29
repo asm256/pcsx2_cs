@@ -1296,9 +1296,9 @@ void dynarecMemcheck()
 void __fastcall dynarecMemLogcheck(u32 start, bool store)
 {
 	if (store)
-		DevCon.WriteLn("Hit store breakpoint @0x%x", start);
+		DevCon.WriteLn("Hit store breakpoint @0x%x at 0x%x", start, cpuRegs.pc);
 	else
-		DevCon.WriteLn("Hit load breakpoint @0x%x", start);
+		DevCon.WriteLn("Hit load breakpoint @0x%x at 0x%x", start, cpuRegs.pc);
 }
 
 void recMemcheck(u32 op, u32 bits, bool store)
